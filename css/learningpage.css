@@ -33,7 +33,7 @@ body {
     position: sticky;
     left: 0;
     top: 0;
-    border-right: 1px solid black;
+    border-right: 1px solid var(--clr-accent);
     min-height: 100dvh;
     display: flex;
     flex-direction: column;
@@ -264,6 +264,7 @@ body {
         position: absolute;
         z-index: 2;
         top: 60px;
+        min-height: 100vh;
     }
 
     .body__header {
