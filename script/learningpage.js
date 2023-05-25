@@ -55,7 +55,7 @@ const changeVideo = (index) => {
 
     // Update the text of the next button based on the index
     if (index == cCourse.videos.length - 1) {
-        nextBtn.textContent = "Complete";
+        nextBtn.textContent = "Finish";
     } else {
         nextBtn.textContent = "Next";
     }

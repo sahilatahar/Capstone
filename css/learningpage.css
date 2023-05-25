@@ -235,7 +235,7 @@ body {
 }
 
 .video {
-    width: 100%;
+    max-width: 100%;
     aspect-ratio: 16 / 9;
 }
 
@@ -262,5 +262,14 @@ body {
         position: absolute;
         z-index: 2;
         top: 60px;
+    }
+
+    .body__header {
+        padding: 0rem 0.5rem;
+    }
+
+    .video__section {
+        width: 100%;
+        aspect-ratio: auto;
     }
 }

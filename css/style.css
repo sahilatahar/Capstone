@@ -32,6 +32,10 @@ body {
     -moz-transition: all 0.2s;
     -ms-transition: all 0.2s;
     -o-transition: all 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 /*  ========== Navbar CSS ========== */
@@ -209,6 +213,10 @@ body {
     .swiper-slide img {
         width: 100%;
         /* object-fit: cover; */
+    }
+
+    .navbar {
+        padding: 0rem 0.5rem;
     }
 
     #toggle__navbar__btn {
