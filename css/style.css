@@ -205,18 +205,13 @@ body {
         margin-top: 1rem;
     }
 
-    .swiper-button-next,
-    .swiper-button-prev {
-        color: black;
-    }
-
     .swiper-slide img {
         width: 100%;
         /* object-fit: cover; */
     }
 
     .navbar {
-        padding: 0rem 0.5rem;
+        padding: 0rem 1rem;
     }
 
     #toggle__navbar__btn {
