@@ -1,6 +1,6 @@
 # Capston - Video Tech Tutorial Website
 
-![Yhills-Capstone](https://github.com/sahilatahar/Yhills-Capstone/assets/100127570/ecfa9def-889a-4cc7-bffe-3ecd956624ad)
+![Yhills-Capstone](https://github.com/sahilatahar/Yhills-Capstone/assets/100127570/2f0ce665-9a49-42a8-be54-c0f875905486)
 
 Similar to the Yhills site, Capston is a web-based platform created to give pupils tutorials in the form of videos or prose. This initiative, which was created as a part of the **Yhills internship** programme, intends to provide thorough study resources for numerous courses. Popular YouTube channels such as CodeWithHarry, ApnaCollege, freeCodeCamp, and others offer video tutorials that students can access. Students may also use local storage on the platform to keep track of their course information and personal data.
 
