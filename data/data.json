@@ -1,0 +1,290 @@
+[
+    {
+        "courseId": 1,
+        "title": "HTML",
+        "language": "Hindi & English",
+        "poster": "html.png",
+        "videos": [
+            {
+                "id": 1,
+                "title": "HTML Tutorial For Beginners",
+                "embed_url": "https://www.youtube.com/embed/BsDoLVMnmZs",
+                "description": "Learn HTML in One Video: In this video, we will see how to create beautiful websites using Html. HTML is the language used for website design. This hindi course on html will teach you everything you need to learn about html tags, lists, tables, seo etc.",
+                "language": "Hindi",
+                "channel": "codewithharry"
+            },
+            {
+                "id": 2,
+                "title": "HTML Full Course - Build a Website Tutorial",
+                "embed_url": "https://www.youtube.com/embed/pQN-pnXPaVg",
+                "description": "Learn the basics of HTML5 and web development in this awesome course for beginners.",
+                "language": "English",
+                "channel": "freecodecamp"
+            },
+            {
+                "id": 3,
+                "title": "HTML Tutorial for Beginners | Complete HTML with Notes & Code",
+                "embed_url": "https://www.youtube.com/embed/HcOc7P5BMi4",
+                "description": "The basics of HTML course for beginners.",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            }
+        ]
+    },
+    {
+        "courseId": 2,
+        "title": "CSS",
+        "language": "Hindi & English",
+        "poster": "css.png",
+        "videos": [
+            {
+                "id": 1,
+                "title": "CSS Tutorial In Hindi",
+                "embed_url": "https://www.youtube.com/embed/Edsxf_NBFrw",
+                "description": "CSS Tutorial For Beginners in Hindi: In this CSS3 tutorial in Hindi we will learn everything you need to learn about CSS from scratch. We will first discuss why we need CSS and what CSS is after which we will gradually build pace and learn several intermediate to advanced level concepts.",
+                "language": "Hindi",
+                "channel": "codewithharry"
+            },
+            {
+                "id": 2,
+                "title": "CSS Tutorial - Full Course for Beginners",
+                "embed_url": "https://www.youtube.com/embed/OXGznpKZ_sA",
+                "description": "In this in-depth course, you will learn about all the key features of CSS. This is the most comprehensive CSS course we've published to date. So if you want to become an expert in Cascading Style Sheets, this is the course for you.",
+                "language": "English",
+                "channel": "freecodecamp"
+            }
+        ]
+    },
+    {
+        "courseId": 3,
+        "title": "Javascript",
+        "language": "Hindi",
+        "poster": "javascript.png",
+        "videos": [
+            {
+                "id": 1,
+                "title": "Javascript Introduction | Lecture 1 | Web Development Course",
+                "embed_url": "https://www.youtube.com/embed/B7wHpNUUT4Y",
+                "description": "",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            },
+            {
+                "id": 2,
+                "title": "Javascript - First Program Namaste World | Lecture 2 | Web Development Course",
+                "embed_url": "https://www.youtube.com/embed/j8fubBAFq_I",
+                "description": "",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            },
+            {
+                "id": 3,
+                "title": "How JavaScript Works ? | Javascript - Lecture 3 | Web Development Course",
+                "embed_url": "https://www.youtube.com/embed/2lRQTdpwhFk",
+                "description": "",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            },
+            {
+                "id": 4,
+                "title": "What is DOM (Document Object Model) ? | Javascript Lecture 4",
+                "embed_url": "https://www.youtube.com/embed/hRaDYCHqFQQ",
+                "description": "",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            },
+            {
+                "id": 5,
+                "title": "Ways to add JavaScript to Web Pages? JavaScript : Lecture 5 ",
+                "embed_url": "https://www.youtube.com/embed/zSt-KI0HryY",
+                "description": "",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            },
+            {
+                "id": 6,
+                "title": "Javascript | Lecture 6,7 & 8 Combined | Web Development Course",
+                "embed_url": "https://www.youtube.com/embed/sTk5BxgxDDI",
+                "description": "",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            },
+            {
+                "id": 7,
+                "title": "Javascript | Lecture 9 & 10 combined | If else and switch statements | Web Development Course",
+                "embed_url": "https://www.youtube.com/embed/VsEfh-EqNT8",
+                "description": "",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            },
+            {
+                "id": 8,
+                "title": "Loops in Javascript | Web Development Course | Javascript- Lecture 11",
+                "embed_url": "https://www.youtube.com/embed/7xgJmIOG8GE",
+                "description": "",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            },
+            {
+                "id": 9,
+                "title": "Basics of Functions in Javascript | Web Development Course | Javascript - Lecture 12",
+                "embed_url": "https://www.youtube.com/embed/5kY4Th53w70",
+                "description": "",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            },
+            {
+                "id": 10,
+                "title": "Strings in Javascript | Web Development Course | Lecture 13 & 14",
+                "embed_url": "https://www.youtube.com/embed/0hQPN4OQgU4",
+                "description": "",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            },
+            {
+                "id": 11,
+                "title": "Exercises using Strings | Javascript Lecture 15 | Web Development Course",
+                "embed_url": "https://www.youtube.com/embed/N8GASXniB6A",
+                "description": "",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            },
+            {
+                "id": 12,
+                "title": "Reference Datatypes in JavaScript | Web Development Course | Javascript Lecture 17",
+                "embed_url": "https://www.youtube.com/embed/vCZqAriaPZw",
+                "description": "",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            },
+            {
+                "id": 13,
+                "title": "Javascript : Top 10 Websites to practice | Web Development Course | Lecture 18",
+                "embed_url": "https://www.youtube.com/embed/vldRjjbcRXc",
+                "description": "",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            },
+            {
+                "id": 14,
+                "title": "Coercion and Type Conversion | Javascript - Lecture 19 | Web Development Course",
+                "embed_url": "https://www.youtube.com/embed/4RjmmZnDFVA",
+                "description": "",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            },
+            {
+                "id": 15,
+                "title": "Everything about Objects | Javascript Lecture - 20 | Web Development Series",
+                "embed_url": "https://www.youtube.com/embed/LgZZLeWKGsI",
+                "description": "",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            },
+            {
+                "id": 16,
+                "title": "Objects Exercise | JavaScript | Lecture 21 | Web Development Course",
+                "embed_url": "https://www.youtube.com/embed/xw0J0v3Zkuo",
+                "description": "",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            },
+            {
+                "id": 17,
+                "title": "What is a Class? Javascript Lecture 22 | Web Development Course",
+                "embed_url": "https://www.youtube.com/embed/0QSSUHTJ-sU",
+                "description": "",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            },
+            {
+                "id": 18,
+                "title": "Everything about Arrays | Javascript Lecture 23 | Web Development Course",
+                "embed_url": "https://www.youtube.com/embed/QrFYRTcKXAU",
+                "description": "",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            },
+            {
+                "id": 19,
+                "title": "How code gets executed in JavaScript? | Lecture 25",
+                "embed_url": "https://www.youtube.com/embed/XrAyzuNanZo",
+                "description": "",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            },
+            {
+                "id": 20,
+                "title": "Exercise for array � Lecture 24 � Javascript",
+                "embed_url": "https://www.youtube.com/embed/GXONlNAnmNU",
+                "description": "",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            },
+            {
+                "id": 21,
+                "title": "Web Development Course | Scope in Javascript | In Depth",
+                "embed_url": "https://www.youtube.com/embed/7n8kPBPzy5I",
+                "description": "",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            },
+            {
+                "id": 22,
+                "title": "What is Hoisting? | Javascript | Web Development Course",
+                "embed_url": "https://www.youtube.com/embed/101q0HoCDKs",
+                "description": "",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            },
+            {
+                "id": 23,
+                "title": "What is this keyword? | Javascript | Web Development Course",
+                "embed_url": "https://www.youtube.com/embed/aHPK2rsonZA",
+                "description": "",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            },
+            {
+                "id": 24,
+                "title": "Exercises for Objects | javascript | Web Development Course",
+                "embed_url": "https://www.youtube.com/embed/4ZSL8_zlq9Y",
+                "description": "",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            },
+            {
+                "id": 25,
+                "title": "DOM Manipulation | Javascript | Web Development Course",
+                "embed_url": "https://www.youtube.com/embed/fYR3i0mcE5c",
+                "description": "",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            },
+            {
+                "id": 26,
+                "title": "How to Host a Static Website?",
+                "embed_url": "https://www.youtube.com/embed/Dm0K3x9yCkg",
+                "description": "",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            }
+        ]
+    },
+    {
+        "courseId": 4,
+        "title": "Bootstrap",
+        "language": "Hindi",
+        "poster": "bootstrap.png",
+        "videos": [
+            {
+                "id": 1,
+                "title": "Bootstrap Tutorial In Hindi",
+                "embed_url": "https://www.youtube.com/embed/vpAJ0s5S2t0",
+                "description": "",
+                "language": "Hindi",
+                "channel": "apnacollege"
+            }
+        ]
+    }
+]

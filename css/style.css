@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+:root {
+    --clr-primary: #2A2A2A;
+    --clr-secondary: #FFFFFF;
+    --clr-accent: #6554C0;
+    --clr-container: rgb(221, 221, 221);
+}
+
+.dark-theme {
+    --clr-primary: #FFFFFF;
+    --clr-secondary: #161a1d;
+    --clr-container: #21272c;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--clr-secondary);
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+
+/*  ========== Navbar CSS ========== */
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: var(--clr-accent);
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.brand__name {
+    color: #FFFFFF;
+}
+
+#toggle__navbar__btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    display: none;
+}
+
+.nav__list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2.5rem;
+    transition: height 1s ease;
+    -webkit-transition: height 1s ease;
+    -moz-transition: height 1s ease;
+    -ms-transition: height 1s ease;
+    -o-transition: height 1s ease;
+}
+
+.nav__list .list__item>* {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+
+/*  ========== Swiper CSS ========== */
+.swiper {
+    width: 95%;
+    max-width: 100%;
+    aspect-ratio: 16 / 6;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    margin-top: 60px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    height: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: var(--clr-primary);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/*  ========== Trending Section CSS ========== */
+
+.courses__section {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.section__title {
+    color: var(--clr-primary);
+}
+
+.courses__cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.courses__section .card {
+    width: 250px;
+    aspect-ratio: 1;
+    background-color: var(--clr-container);
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -ms-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.courses__section .card:hover {
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+}
+
+.complete__mark:not(:empty) {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    background-color: var(--clr-accent);
+    border-radius: 0.5rem 0 0.5rem 0;
+    -webkit-border-radius: 0.5rem 0 0.5rem 0;
+    -moz-border-radius: 0.5rem 0 0.5rem 0;
+    -ms-border-radius: 0.5rem 0 0.5rem 0;
+    -o-border-radius: 0.5rem 0 0.5rem 0;
+    padding: 0.2rem;
+    color: #FFFFFF;
+}
+
+.card__image {
+    max-width: 100%;
+    height: 70%;
+    object-fit: contain;
+}
+
+.card__title {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--clr-primary);
+}
+
+@media screen and (max-width: 600px) {
+
+    .swiper {
+        width: 100%;
+        height: 25vh;
+        margin-top: 1rem;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        color: black;
+    }
+
+    .swiper-slide img {
+        width: 100%;
+        /* object-fit: cover; */
+    }
+
+    #toggle__navbar__btn {
+        display: block;
+    }
+
+    .nav__list {
+        height: 0px;
+        width: 100vw;
+        position: absolute;
+        flex-direction: column;
+        top: 40px;
+        left: 0;
+        z-index: 6;
+        background-color: var(--clr-accent);
+        gap: 1rem;
+        padding-bottom: 1rem;
+        overflow: hidden;
+        transition: all 0.2s ease;
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+        -o-transition: all 0.2s ease;
+    }
+
+    .nav__list.show {
+        height: 170px;
+        top: 50px;
+    }
+
+    .list__item {
+        width: 100%;
+    }
+
+    .list__item>* {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .nav__list {
+        justify-content: end;
+    }
+
+    .courses__cards {
+        justify-content: center;
+    }
+}

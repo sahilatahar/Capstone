@@ -1,0 +1,137 @@
+.dialog-wrapper {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(49, 49, 49, 0.5);
+    color: #313131;
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.dialog-wrapper.fadeIn {
+    animation: fadeIn .2s ease;
+}
+
+.dialog-wrapper.fadeOut {
+    animation: fadeOut .2s ease forwards;
+}
+
+.dialog-wrapper .dialog {
+    position: relative;
+    width: min(400px, 90vw);
+    border-radius: .4em;
+    background-color: #fff;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dialog-wrapper .dialog .icon {
+    font-size: 3rem;
+    width: max-content;
+    aspect-ratio: 1;
+    align-self: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #2ecc71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.dialog-wrapper .dialog .btn {
+    cursor: pointer;
+}
+
+.dialog-wrapper .dialog .btn:active {
+    background-color: #f4f4f4;
+}
+
+.dialog-wrapper .dialog .close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 1.8em;
+}
+
+.dialog-wrapper .dialog .content {
+    padding: 1rem;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.dialog-wrapper .dialog.slideDown {
+    animation: slideDown .2s ease;
+}
+
+.dialog-wrapper .dialog.slideUp {
+    animation: slideUp .2s ease forwards;
+}
+
+.dialog-wrapper .dialog .buttons {
+    font-size: 1.6em;
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+.dialog-wrapper .dialog .buttons .btn {
+    flex: 1;
+    padding: 15px;
+    text-align: center;
+    border-top: 1px solid #ebebeb;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-3em);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-3em);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: .5;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <title>Capstone</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h2 class="brand__name">Capstone</h2>
+        <ul class="nav__list">
+            <li class="list__item"><a href="index.html">Home</a></li>
+            <li class="list__item"><a href="#all__courses">Courses</a></li>
+            <li class="list__item"><a href="#">About</a></li>
+            <li class="list__item"><a href="#">Contact</a></li>
+            <li class="list__item">
+                <div id="theme__toggle__btn"><i class="fa-regular fa-moon"></i></d>
+            </li>
+        </ul>
+        <button id="toggle__navbar__btn"><i class="fa-solid fa-bars"></i></button>
+    </nav>
+
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="./images/image1.jpg" alt="image 1"></div>
+            <div class="swiper-slide"><img src="./images/image2.jpg" alt="image 2"></div>
+            <div class="swiper-slide"><img src="./images/image3.jpg" alt="image 3"></div>
+            <div class="swiper-slide"><img src="./images/image4.jpg" alt="image 4"></div>
+            <div class="swiper-slide"><img src="./images/image5.jpg" alt="image 5"></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+    </div>
+
+    <!-- Trending Courses Section -->
+    <section class="courses__section">
+        <h1 class="section__title">Trending Courses</h1>
+        <div class="courses__cards" id="trending__cards"></div>
+    </section>
+
+    <!-- All Courses Section -->
+    <section class="courses__section" id="all__courses">
+        <h1 class="section__title">All Courses</h1>
+        <div class="courses__cards" id="all__courses__cards"> </div>
+    </section>
+
+    <script src="./script/script.js" type="module"></script>
+</body>
+
+</html>
