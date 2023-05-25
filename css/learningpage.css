@@ -235,8 +235,10 @@ body {
 }
 
 .video {
+    width: 100%;
     max-width: 100%;
     aspect-ratio: 16 / 9;
+    margin: auto;
 }
 
 .video__title {
@@ -269,7 +271,7 @@ body {
     }
 
     .video__section {
-        width: 100%;
+        width: 90%;
         aspect-ratio: auto;
     }
 }
