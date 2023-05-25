@@ -78,7 +78,11 @@ toggleNavbarBtn.addEventListener('click', () => {
 
 // Redirect to the home page when homeOption is clicked
 homeOption.addEventListener('click', () => {
-    window.location.href = '/';
+    let urlArray = window.location.href.split('/');
+    urlArray.pop();
+    urlArray.push("index.html");
+    let newUrl = urlArray.join('/');
+    window.location.href = newUrl;
 });
 
 
