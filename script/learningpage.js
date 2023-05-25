@@ -22,7 +22,7 @@ if (theme === 'dark') {
 const readJSONFile = async () => {
     let data;
     try {
-        data = await fetch('../../data/data.json').then((respond) => respond.json());
+        data = await fetch('../data/data.json').then((respond) => respond.json());
     } catch {
         console.log("JSON file reading error");
     }
