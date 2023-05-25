@@ -46,7 +46,11 @@
                 completedCourses: []
             };
             localStorage.setItem('userData', JSON.stringify(userData));
-            window.location.href = '/learningpage.html';
+            let urlArray = window.location.href.split('/');
+            urlArray.pop();
+            urlArray.push("learningpage.html");
+            let newUrl = urlArray.join('/');
+            window.location.href = newUrl;
         });
     </script>
 </body>

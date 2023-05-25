@@ -124,7 +124,13 @@ function btnClick(e) {
                 window.dialog.show({
                     content: `You have completed the ${cCourse.title} Course`,
                     okText: 'Go to Home',
-                    onOk: () => window.location.href = '/index.html',
+                    onOk: () => {
+                        let urlArray = window.location.href.split('/');
+                        urlArray.pop();
+                        urlArray.push("index.html");
+                        let newUrl = urlArray.join('/');
+                        window.location.href = newUrl;
+                    },
                 });
             } else {
                 // Display an error message if progress is less than 50%

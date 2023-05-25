@@ -63,11 +63,15 @@ data.forEach((course) => {
     cards.forEach((card) => {
         card.addEventListener('click', () => {
             localStorage.setItem('currentCourseId', course.courseId);
+            let urlArray = window.location.href.split('/');
+            urlArray.pop();
             if (userData != null) {
-                window.location.href = '/learningpage.html';
+                urlArray.push("learningpage.html");
             } else {
-                window.location.href = './form.html';
+                urlArray.push("form.html");
             }
+            let newUrl = urlArray.join('/');
+            window.location.href = newUrl;
         });
     });
 });
