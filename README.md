@@ -1,6 +1,6 @@
 # Capstone - Course Tutorial Platform
 
-![Capstone Logo]("./preview.png")
+![Capstone Logo](preview.png)
 
 Capstone is a web-based platform designed to provide comprehensive tutorial resources for various courses through video content. Users can access tutorials from popular YouTube channels like CodeWithHarry, ApnaCollege, and freeCodeCamp. Additionally, Capstone offers features such as local storage for tracking course progress and a responsive design for seamless viewing on different devices.
 
