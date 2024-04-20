@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+			integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+		/>
+		<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+		<link rel="icon" href="favicon.png" type="image/x-icon" />
+		<title>Capstone</title>
+		<link rel="stylesheet" href="./dialog/style.css" />
+		<link rel="stylesheet" href="./css/course.css" />
+		<link rel="stylesheet" href="./css/scrollbar.css" />
+	</head>
+
+	<body>
+		<aside class="sidebar show">
+			<div class="sidebar__header">
+				<div class="back__option">
+					<i class="fa-solid fa-arrow-left icon"></i>
+					<p>Go to homepage</p>
+				</div>
+				<div class="progress__block">
+					<div class="progress__bar">
+						<div class="progress__value"></div>
+					</div>
+					<p class="progress__text">0% Completed</p>
+				</div>
+			</div>
+			<ul class="topic__list"></ul>
+		</aside>
+
+		<div class="body">
+			<header class="body__header">
+				<button id="toggle__navbar__btn">
+					<i class="fa-solid fa-bars"></i>
+				</button>
+				<h2 class="navbar__title"></h2>
+			</header>
+			<section class="video__section">
+				<p class="error__text"></p>
+				<iframe
+					src=""
+					title="Capstone video player"
+					frameborder="0"
+					allowfullscreen
+					class="video"
+					id="iframe"
+				></iframe>
+				<h1 class="video__title"></h1>
+				<p class="video__description"></p>
+				<div class="options">
+					<button id="prev__btn">Previous</button>
+					<button id="next__btn">Next</button>
+				</div>
+			</section>
+		</div>
+
+		<script src="./dialog/index.js"></script>
+		<script src="./js/course.js" type="module"></script>
+	</body>
+</html>

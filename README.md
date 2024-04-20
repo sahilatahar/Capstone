@@ -1,52 +1,52 @@
-# Capston - Video Tech Tutorial Website
+# Capstone - Course Tutorial Platform
 
-![Yhills-Capstone](https://github.com/sahilatahar/Yhills-Capstone/assets/100127570/2f0ce665-9a49-42a8-be54-c0f875905486)
+![Capstone Logo]("./preview.png")
 
-Similar to the Yhills site, Capston is a web-based platform created to give pupils tutorials in the form of videos or prose. This initiative, which was created as a part of the **Yhills internship** programme, intends to provide thorough study resources for numerous courses. Popular YouTube channels such as CodeWithHarry, ApnaCollege, freeCodeCamp, and others offer video tutorials that students can access. Students may also use local storage on the platform to keep track of their course information and personal data.
+Capstone is a web-based platform designed to provide comprehensive tutorial resources for various courses through video content. Users can access tutorials from popular YouTube channels like CodeWithHarry, ApnaCollege, and freeCodeCamp. Additionally, Capstone offers features such as local storage for tracking course progress and a responsive design for seamless viewing on different devices.
 
-## Features
-- **Video Tutorials:** Capston offers a range of video tutorials covering different courses. Users can access tutorials on programming languages, and other technology topics. The videos are carefully curated to ensure high-quality content and a comprehensive learning experience.
-- **YouTube Channel Attribution:** For the videos utilised in the tutorials, the platform offers credit to YouTube channels such as CodeWithHarry, ApnaCollege, freeCodeCamp, and others. We value the worthwhile content that these channels produce.
-- **Local Storage:** Capston has a function for storing student information, such as the courses they've taken, contact information, and other pertinent information. This makes it simple for students to monitor their progress and keep a record of their academic career.
-- **Responsive Design:** The adaptable design of Capston makes it possible for users to visit the website and watch tutorials on a variety of devices, including PCs, laptops, tablets, and mobile phones.
-- **Dark Mode:** The dark mode function in Capston enables users to change to a darker colour scheme for lessened eye strain and improved readability in low-light conditions.
+## 🚀 Key Features
 
-## Technologies Used
-The project is built using the following technologies:
-- HTML
-- CSS
-- JavaScript
-- JSON
-- Font Awesome
-- Swiper (JavaScript library for slider/carousel functionality)
+-   **📚 Comprehensive Video Tutorials:** Access high-quality video tutorials covering a variety of courses, carefully curated for a comprehensive learning experience.
+-   **📺 YouTube Channel Attribution:** Proper credit is given to YouTube channels for the videos used in the tutorials, acknowledging their valuable content.
+-   **📈 Progress Tracking:** Utilize local storage to keep track of course progress and personal data, making it easy to monitor academic achievements.
+-   **📱 Responsive Design:** Enjoy a seamless viewing experience across devices, including PCs, laptops, tablets, and mobile phones.
+-   **🌙 Dark Mode:** Reduce eye strain and enhance readability in low-light conditions with the dark mode feature.
 
-## Installation
+## 💻 Technologies Utilized
 
-To install and run the project locally, follow these steps:
+The project incorporates the following technologies:
+
+-   HTML
+-   CSS
+-   JavaScript
+-   JSON
+-   Font Awesome
+-   Swiper (JavaScript library for slider/carousel functionality)
+
+## 🛠️ Installation
+
+To run the project locally, follow these steps:
 
 1. Clone the repository:
-`git clone https://github.com/sahilatahar/Yhills-Capstone.git`
-
+    ```
+    git clone https://github.com/sahilatahar/Capstone.git
+    ```
 2. Navigate to the project directory:
-`cd Yhills-Capstone`
-
+    ```
+    cd Capstone
+    ```
 3. Open the index.html file in your preferred web browser.
 
-## Contributing
-Capston is open to contributions. Please raise an issue or send a pull request on the project repository if you have any ideas for enhancements, new tutorials, or features.
+## 🙏 Credits
 
-## Credits
-We extend our appreciation to the following YouTube channels for their valuable video content:
+We extend our gratitude to the following YouTube channels for their valuable video content:
 
-- CodeWithHarry
-- ApnaCollege
-- freeCodeCamp
+-   CodeWithHarry
+-   ApnaCollege
+-   freeCodeCamp
 
-## License
+## 📝 License
 
-The project is licensed under the MIT License. Please refer to the LICENSE file for more details.
+The project is licensed under the MIT License. Refer to the [LICENSE](LICENSE) file for more details.
 
-## Contact
-For any inquiries or questions, please contact [@sahilatahar](https://www.instagram.com/sahilatahar).
-
-Happy learning with Capston!
+Happy learning with Capstone!
